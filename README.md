@@ -67,13 +67,6 @@ public:
             if (i + 1 < cost.size()) {
                 totalCost += cost[i + 1];
             }
-            // The third item (i + 2) is free, so we skip it
-        }
-      
-        return totalCost;
-    }
-
-};
 
         return totalCost;
     }
