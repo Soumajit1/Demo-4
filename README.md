@@ -25,12 +25,4 @@ public:
             result.push_back((carry % 2) + '0');  // Convert int to char and append
           
             // Update carry for next iteration (carry / 2)
-            carry /= 2;
-        }
-      
-        // Reverse the result since we built it backwards
-        reverse(result.begin(), result.end());
-      
-        return result;
-    }
-};
+
