@@ -11,9 +11,7 @@ public:
             // Add current digit from string a (if exists), otherwise add 0
             if (indexA >= 0) {
                 carry += a[indexA] - '0';  // Convert char to int and add to carry
-                indexA--;
-            }
-          
+                indexA--
             // Add current digit from string b (if exists), otherwise add 0
             if (indexB >= 0) {
                 carry += b[indexB] - '0';  // Convert char to int and add to carry
